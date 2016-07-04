@@ -1,0 +1,25 @@
+{
+  "name": "setopt",
+  "version": "1.0.0",
+  "description": "Helper configurator for automatically calling set methods for each property in the input options object",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MiguelCastillo/setopt.git"
+  },
+  "keywords": [
+    "configurator"
+  ],
+  "author": "Miguel Castillo <manchagnu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MiguelCastillo/setopt/issues"
+  },
+  "homepage": "https://github.com/MiguelCastillo/setopt",
+  "dependencies": {
+    "dis-isa": "^1.2.3"
+  }
+}
