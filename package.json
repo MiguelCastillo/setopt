@@ -1,6 +1,6 @@
 {
   "name": "setopt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helper configurator for automatically calling set methods for each property in the input options object",
   "main": "index.js",
   "scripts": {
