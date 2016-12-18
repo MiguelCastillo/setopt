@@ -11,7 +11,7 @@ function Setopt(checker) {
 }
 
 Setopt.prototype.configure = function(target, options) {
-  Object.keys(options)
+  Object.keys(options || {})
     .map(function(option) {
       var camelOption = "set" + option[0].toUpperCase() + option.substr(1);
       var setter = types.isFunction(target[camelOption]) ? camelOption : option;
